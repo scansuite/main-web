@@ -1,0 +1,11 @@
+{
+    "name": "main-web",
+    "account_id": "0184b696373c39c4357e0f82a363c8b4",
+    "compatibility_date": "2025-05-25",
+    "assets": {
+      "directory": "./dist"
+    },
+    "observability": {
+      "enabled": true
+    }
+  }
