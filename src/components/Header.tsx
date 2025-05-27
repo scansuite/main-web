@@ -83,7 +83,7 @@ const Header: React.FC = () => {
         
         {/* Mobile menu */}
         <div 
-          className={`md:hidden absolute top-full left-0 right-0 bg-card shadow-xl border-t border-border transform transition-all duration-300 ${
+          className={`md:hidden absolute top-full left-0 right-0 bg-card/90 backdrop-blur-md shadow-xl border-t border-border transform transition-all duration-300 ${
             isMenuOpen ? 'translate-y-0 opacity-100' : '-translate-y-4 opacity-0 pointer-events-none'
           }`}
         >
