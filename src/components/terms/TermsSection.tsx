@@ -9,7 +9,7 @@ interface TermsSectionProps {
 
 const TermsSection: React.FC<TermsSectionProps> = ({ number, title, content, list }) => {
   return (
-    <div className="bg-card border border-border rounded-xl p-6 sm:p-8 shadow-sm mb-6">
+    <div className="bg-card/90 backdrop-blur-md border border-border rounded-xl p-6 sm:p-8 shadow-sm mb-6">
       <h2 className="text-xl sm:text-2xl font-semibold text-text-heading mb-4">
         {number}. {title}
       </h2>

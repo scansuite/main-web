@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone, Clock } from 'lucide-react';
 
 const ContactInfo: React.FC = () => {
   return (
-    <div className="bg-card border border-border rounded-xl p-6 sm:p-8 shadow-sm h-full">
+    <div className="bg-card/90 backdrop-blur-md border border-border rounded-xl p-6 sm:p-8 shadow-sm h-full">
       <h2 className="text-2xl font-semibold text-text-heading mb-6 pb-4 border-b border-border">
         Contact Information
       </h2>
