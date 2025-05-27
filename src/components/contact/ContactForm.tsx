@@ -90,7 +90,7 @@ const ContactForm: React.FC = () => {
   };
   
   return (
-    <div className="bg-card border border-border rounded-xl p-6 sm:p-8 shadow-sm">
+    <div className="bg-card/90 backdrop-blur-md border border-border rounded-xl p-6 sm:p-8 shadow-sm">
       <h2 className="text-2xl font-semibold text-text-heading mb-6 pb-4 border-b border-border">
         Send us a Message
       </h2>
@@ -117,7 +117,7 @@ const ContactForm: React.FC = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className={`w-full px-4 py-3 rounded-lg border ${errors.name ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-gray-900 dark:!text-gray-100 focus:ring-2 focus:ring-accent focus:border-accent transition-colors`}
+            className={`w-full px-4 py-3 rounded-lg border ${errors.name ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-black focus:ring-2 focus:ring-accent focus:border-accent transition-colors`}
           />
           {errors.name && (
             <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.name}</p>
@@ -134,7 +134,7 @@ const ContactForm: React.FC = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className={`w-full px-4 py-3 rounded-lg border ${errors.email ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-gray-900 dark:!text-gray-100 focus:ring-2 focus:ring-accent focus:border-accent transition-colors`}
+            className={`w-full px-4 py-3 rounded-lg border ${errors.email ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-black focus:ring-2 focus:ring-accent focus:border-accent transition-colors`}
           />
           {errors.email && (
             <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.email}</p>
@@ -151,7 +151,7 @@ const ContactForm: React.FC = () => {
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            className={`w-full px-4 py-3 rounded-lg border ${errors.subject ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-gray-900 dark:!text-gray-100 focus:ring-2 focus:ring-accent focus:border-accent transition-colors`}
+            className={`w-full px-4 py-3 rounded-lg border ${errors.subject ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-black focus:ring-2 focus:ring-accent focus:border-accent transition-colors`}
           />
           {errors.subject && (
             <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.subject}</p>
@@ -168,7 +168,7 @@ const ContactForm: React.FC = () => {
             rows={5}
             value={formData.message}
             onChange={handleChange}
-            className={`w-full px-4 py-3 rounded-lg border ${errors.message ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-gray-900 dark:!text-gray-100 focus:ring-2 focus:ring-accent focus:border-accent transition-colors resize-y`}
+            className={`w-full px-4 py-3 rounded-lg border ${errors.message ? 'border-red-500 dark:border-red-400' : 'border-border'} bg-input text-black focus:ring-2 focus:ring-accent focus:border-accent transition-colors resize-y`}
           />
           {errors.message && (
             <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.message}</p>
